@@ -38,18 +38,18 @@ A clean and practical **MERN Stack** application for managing employees, leaves,
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ahmedmaajid/Employee-Management-System.git
-cd Employee-Management-System
+git clone https://github.com/AnirudhaGupta007/EMS.git
+cd EMS
 ```
 
 ### 2. Setup Backend
 
 ```bash
-cd employee-management-backend
+cd backend
 npm install
 ```
 
-Create a `.env` file inside the `employee-management-backend` folder:
+Create a `.env` file inside the `backend` folder:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
@@ -81,7 +81,7 @@ Backend will run on: `http://localhost:5000`
 Open a **new terminal** and run:
 
 ```bash
-cd employee-management-frontend
+cd frontend
 npm install
 npm run dev
 ```
@@ -93,14 +93,14 @@ Frontend will run on: `http://localhost:5173`
 ## 📂 Project Structure
 
 ```
-Employee-Management-System/
-├── employee-management-backend/     # Express + MongoDB API
+EMS/
+├── backend/     # Express + MongoDB API
 │   ├── models/
 │   ├── routes/
 │   ├── controllers/
 │   ├── middleware/
 │   └── ...
-├── employee-management-frontend/    # React + TailwindCSS
+├── frontend/    # React + TailwindCSS
 │   ├── src/
 │   │   ├── components/
 │   │   ├── pages/
