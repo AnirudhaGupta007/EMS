@@ -20,7 +20,7 @@ A clean and practical **MERN Stack** application for managing employees, leaves,
 
 | Layer       | Technologies                          |
 |-------------|---------------------------------------|
-| Frontend    | React, React Router, Axios, TailwindCSS |
+| Frontend    | React, TailwindCSS |
 | Backend     | Node.js, Express.js                   |
 | Database    | MongoDB + Mongoose                    |
 | Auth        | JWT (JSON Web Token)                  |
