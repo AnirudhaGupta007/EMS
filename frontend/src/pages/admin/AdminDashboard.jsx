@@ -57,25 +57,21 @@ export const AdminDashboard = () => {
           title: "Total Employees",
           value: statsData.totalEmployees?.toString() || "0",
           icon: Users,
-          change: "+12%",
         },
         {
           title: "Departments",
           value: statsData.departments?.toString() || "0",
           icon: Building2,
-          change: "+2",
         },
         {
           title: "Monthly Payroll",
           value: `LKR ${statsData.monthlyPayroll?.toLocaleString() || "0"}`,
           icon: DollarSign,
-          change: "+8%",
         },
         {
           title: "Active Leaves",
           value: statsData.activeLeaves?.toString() || "0",
           icon: TrendingUp,
-          change: "-5%",
         },
       ]
     : [];
@@ -101,9 +97,6 @@ export const AdminDashboard = () => {
               <div className="w-10 h-10 bg-gray-50 rounded-sm flex items-center justify-center">
                 <stat.icon size={18} className="text-gray-700" />
               </div>
-              <span className="text-xs font-medium text-gray-600">
-                {stat.change}
-              </span>
             </div>
             <h3 className="text-2xl font-semibold text-gray-600 mb-1">
               {stat.value}

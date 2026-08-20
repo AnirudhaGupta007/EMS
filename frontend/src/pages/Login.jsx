@@ -107,7 +107,7 @@ const Login = () => {
                 <span className="text-white text-sm font-bold">E</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Eastern Prints Pvt Ltd
+                TechNova Solutions
               </span>
             </div>
             <h1 className="text-lg font-bold text-gray-800 mb-1">
@@ -225,12 +225,7 @@ const Login = () => {
             </div>
           </div>
 
-          {/* Footer */}
-          <div className="text-center mt-4 space-y-1">
-            <p className="text-[10px] text-gray-600 font-medium">
-              EMS System Designed by Ahmed Maajid
-            </p>
-          </div>
+
         </div>
 
         <link

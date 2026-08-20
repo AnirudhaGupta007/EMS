@@ -22,7 +22,7 @@ const AdminLayout = () => {
                 {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
               <h1 className="text-l font-semibold text-black">
-                Eastern Prints Pvt Ltd
+                TechNova Solutions
               </h1>
             </div>
 

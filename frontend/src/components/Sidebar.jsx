@@ -40,7 +40,7 @@ const Sidebar = ({ isOpen, onClose }) => {
             </div> */}
             <span className="text-l font-semibold text-black">
               {" "}
-              Eastern Prints Pvt Ltd
+              TechNova Solutions
             </span>
           </div>
         </div>
